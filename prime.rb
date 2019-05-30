@@ -4,5 +4,6 @@ def prime?(num)
    prime_check.each do |number|
      if `#{num}` % num == 0 
      false
+    end
 end
 binding.pry
