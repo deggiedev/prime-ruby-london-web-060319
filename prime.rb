@@ -1,9 +1,13 @@
-require 'pry'
-def prime?(num)
-  # prime_check = (1..num).to_a 
-   #prime_check.each do |number|
-     if #{num} % number == 0 
-     false
+def is_prime?(num)
+  if num < 2
+    return false
+  end
+  i = 2
+  while i <= num 
+    if num % i == 0
+      return false
     end
+    i += 1
+  end
+  return true
 end
-binding.pry
