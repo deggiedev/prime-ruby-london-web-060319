@@ -1,3 +1,4 @@
 # Add  code here!
 def prime?(num)
-  if number 1..num % number = 0 
+    (1..num).to_a 
+end
